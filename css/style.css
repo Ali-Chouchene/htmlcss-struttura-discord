@@ -18,6 +18,9 @@ button{
     border:  rgb(218,165,32);
     font-size: 25px;
 }
+.br{
+    color: aliceblue;
+}
 
 /*header*/
 
@@ -88,10 +91,18 @@ header{
 .container-big-black{
     background-color:rgb(34,39,42) ;
     min-width: 1200px;
-    min-height: 1000px;
+    min-height: 600px;
     display: flex;
     justify-content: center;
     padding-top: 10px;
+    
+}
+.container-footer{
+    background-color: rgb(34,39,42);
+    min-width: 1200px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
     
 }
 
