@@ -68,6 +68,15 @@ header{
     
     
 }
+.container-grey{
+    background-color: rgb(211,211,211);
+    min-width: 1200px;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
 .blue-cube{
     min-width: 700px;
     min-height: 500px;
