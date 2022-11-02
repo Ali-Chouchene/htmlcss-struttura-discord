@@ -58,6 +58,7 @@ header{
 }
 /*main*/
 
+/*containers*/
 .container-white{
     background-color: rgb(255, 255, 255);
     min-width: 1200px;
@@ -76,8 +77,26 @@ header{
     justify-content: center;
     padding-top: 50px;
 }
+.container-big-grey{
+    background-color: rgb(211,211,211);
+    min-width: 1200px;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.container-big-black{
+    background-color:rgb(34,39,42) ;
+    min-width: 1200px;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
 
-.blue-cube{
+/* boxes */
+.blue-box{
     min-width: 700px;
     min-height: 500px;
     border: 2px dashed rgb(0, 0, 0);
@@ -86,11 +105,35 @@ header{
 
 
 }
-.pink-cube{
+.pink-box{
     min-width: 500px;
     min-height: 500px;
     border: 2px dashed rgb(0, 0, 0);
     background-color: rgb(255,192,203);
     align-self: flex-start;
 
+}
+
+.green-box{
+    min-width: 1200px;
+    min-height: 900px;
+    border: 2px dashed rgb(0, 0, 0);
+    background-color:rgb(34,139,34) ;
+    align-self: flex-start;
+
+}
+.marine-box{
+    min-width: 215px;
+    min-height: 550px;
+    border: 2px dashed rgb(255, 255, 255);
+    background-color:rgb(33,178,170) ;
+    align-self: flex-start;
+}
+
+.red-box{
+    min-width: 340px;
+    min-height: 550px;
+    border: 2px dashed rgb(0, 0, 0);
+    background-color:rgb(239,128,128) ;
+    align-self: flex-start;
 }
