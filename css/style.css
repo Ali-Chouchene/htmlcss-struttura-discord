@@ -58,10 +58,30 @@ header{
 }
 /*main*/
 
-.small-white{
-    background-color: blue;
-    min-height: 500px;
+.container-white{
+    background-color: rgb(255, 255, 255);
+    min-width: 1200px;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+    
 }
 .blue-cube{
+    min-width: 700px;
+    min-height: 500px;
+    border: 2px dashed rgb(0, 0, 0);
+    background-color: rgb(31,144,255);
+    align-self: flex-start;
+
+
+}
+.pink-cube{
+    min-width: 500px;
+    min-height: 500px;
+    border: 2px dashed rgb(0, 0, 0);
+    background-color: rgb(255,192,203);
+    align-self: flex-start;
 
 }
