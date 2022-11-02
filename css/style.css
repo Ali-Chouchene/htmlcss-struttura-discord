@@ -4,16 +4,27 @@
     padding: 0;
     box-sizing: border-box;
     font-family: arial;
+    font-size: 25px;
+    
 }
 /*utilities*/
 
-
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+button{
+    background-color: rgb(218,165,32);
+    border:  rgb(218,165,32);
+    font-size: 25px;
+}
 
 /*header*/
 
 header{
     background-color:rgb(173,216,229) ;
     min-height: 500px;
+    padding-top: 15px;
 }
 .container-navbar{
     max-width: 1200px;
@@ -23,7 +34,8 @@ header{
     background-color: rgb(218,165,32);
     text-align: center;
     justify-content: space-between;
-    padding: 5px;
-
-
+    padding: 10px;
+    font-size: 25px;
+   
 }
+
